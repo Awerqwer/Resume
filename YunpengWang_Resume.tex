@@ -1,0 +1,131 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%    PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+%\usepackage{hyperref}
+\usepackage{url}
+\usepackage[left=0.7in,top=0.45in,right=0.7in,bottom=0.1in]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\urlstyle{same}
+% Document margins
+\usepackage[marginal]{footmisc}
+\usepackage[colorlinks, urlcolor=black]{hyperref}
+%\renewcommand{\thefootnote}{}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Yunpeng Wang} % Your name
+%Shenzhen University, China
+\address{\\ 302-509-7658 \quad \\
+	%    New York, NY 10025\quad \\
+	\href{mailto: yw3954@columbia.edu}{yw3954@columbia.edu} \quad \\  \href{https://www.linkedin.com/in/wyunpeng0302} {\url{https://www.linkedin.com/in/wyunpeng0302}}
+}
+
+% Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+%\address{(+86)13798236062 } % Your phone number and email
+\vspace{-0.3em}
+\begin{document}
+%----------------------------------------------------------------------------------------
+%    EDUCATION SECTION
+%---------------------------------------------------------------------------------
+\begin{rSection}{Education}
+	%
+	\begin{rSubsection}{Columbia University}{\em New York, US}{Master of Operations Research}{Jul 2022}
+		\item {\bf Coursework}: Concentration on Machine Learning and Artificial Intelligence \bf (may be add some course here?)
+	\end{rSubsection}
+	\vspace{-0.1em}
+	\begin{rSubsection}{University of Delaware}{\em Newark, DE}{Bachelor of Applied Mathematics; Minor in Computer Science \& Statistics; {GPA: 3.75}} 
+		{May 2021} 
+		%\item Institute for Advanced Study ({\em a refined and featured interdisciplinary college emphasizing nature science})
+		% \item GPA: {\bf 4.14/4.5 (rank 1/60)} $|$ Major GPA: {\bf 4.22/4.5} %\ $|$ TOEFL: {\bf 107} \ $|$ GRE: {\bf 170Q, 161V}
+		%(WES 3.81/4;
+		%$|$ Ranking: {\bf top 1}  
+		\item {\bf Coursework}: Discrete Mathematics; General Computer Science; Data Structures; Real Analysis; Mathematical Statistics; Database Management; Ordinary Differential Equation; Regression Analysis
+
+	\end{rSubsection}
+	%    \vspace{-0.25em}
+\end{rSection}
+	
+	
+%---------------------------------------------------------------------------------------
+% Skills and Interests    
+%---------------------------------------------------------------------------------------
+\begin{rSection}{Technical Skills}
+	
+	{\bf Programming}:Python (Numpy, Pandas, Scipy, Tensorflow, Keras), R, Java, C++, html, \\
+	{\bf Data Management}: SQL, Github \\
+	{\bf Data Visualization}: Matplotlib, Seaborn, Tableau, Plotly, Kepler.gl \\
+	{\bf Machine Learning Algorithm}: Regression, classification, KNN, SVM, Random Forest, CNN, GAN
+\end{rSection}
+	
+	
+%----------------------------------------------------------------------------------------
+%    WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Professional EXPERIENCE}
+	
+	\begin{rSubsection}{Teradata Information System}{\em Beijing, CN}
+		{Data Engineer, Intern \emph{(Python, C++)}}{Feb 2022 - Apr 2022}
+
+		\item Maintained ETL opening of Bank of China credit card data warehouse, including but not limited to daily business work order, uploading, and downloading, warehousing, and model design
+		\item Reviewed orders and transactions according to project manager's requirements and assisted in acceptance process
+		\item Collaborated with colleagues from various departments, including the Business Department, to optimize correcting technical solutions based on unmet business needs
+		\item Acquired crucial professional knowledge regarding Teradata financial data models and developed a general understanding of credit card data warehousing supervision
+		\vspace{-0.3em}
+	\end{rSubsection}
+	
+	\begin{rSubsection}{Diamond Equity Research}{\em New York, US}{Data Analyst, Intern \emph{(Python)}}{Sep - Oct 2021}
+		
+	\item Extracted and aggregated sales data from company's internal databases with SQL, conducted data cleaning tasks including outlier detection and replacement, missing value imputation and variable type conversion, etc.
+	\item Leveraged Business Intelligence tools including QlikView and Tableau to build trend line visualizations to examine underlying patterns behind sales revenue fluctuations in past 6 quarters
+	\item Located anomalies based the Interquartile Range Rule and performed root cause analysis to uncover potential risk factors
+	\item Built simulation models in Excel to analyze impact of fluctuations in macroeconomic and industry-wide factors on sales volume and revenue respectively, provided customized revenue growth strategies to stabilize earning performance
+	\item Established a multiple linear regression model to pinpoint top influencing factors driving sales conversion rate, recommended corresponding sales operations solutions for maximized pipeline conversion
+	\end{rSubsection}
+	
+	
+%------------------------------------------------
+\end{rSection}
+	
+%----------------------------------------------------------------------------------------
+%    RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+	
+\begin{rSection}{Academic project} 
+	\begin{rSubsection}{Geospatial Data Analytics}{\em Sep - Dec 2022}{Deloitte \emph{(Python)}}{}
+		\item Retrieved Census demographic and economic data via API and created advanced filters to select and aggregate data from different census periods 		
+		\item Converted shapefiles of census blocks to proper formats and visualized data of interest via multiple GIS tools such as Kepler.gl and OpenStreetMap
+		\item Implemented translations between blocks over different years based on the target-density weighting method
+	\end{rSubsection}
+	
+
+	
+	\begin{rSubsection}{Biological Data Engineering}{\em Sep 2022 - Present}{Frederick National Laboratory \emph{(Python, C++)}}{}
+		\item Developed a pipeline in the shell script that automated simulation of ligand (drug) - receptor (protein) process on different RAS systems via DOCK6.9 (molecular docking application), and prepared a detailed tutorial for user reference
+		\item Tested different metrics evaluating binding process, including Hawkins GB/SA score function, Amber score function, and enrichment, on different RAS systems
+		\item Visualized test results utilizing Python to analyze metrics’ performance by analogy and proposed underlying issues within each metric
+	\end{rSubsection}
+
+\end{rSection}
+	
+\end{document}
